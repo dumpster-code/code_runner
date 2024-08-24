@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 add_executable(${PROJECT_NAME} src/main.cpp)
 
-add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/third_party/googletest/googletest)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/third_party/googletest)
 include_directories(${CMAKE_CURRENT_LIST_DIR}/third_party/googletest/googletest/include)
 
 add_subdirectory(tests)
